@@ -81,4 +81,7 @@ Las contribuciones son bienvenidas. Para cambios importantes, abre primero un is
 ## 📄 Licencia
 
 [MIT](LICENSE)
+
+```
+
 ```
