@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤧 Guía Interactiva para el Resfriado
 
-## Getting Started
+Una aplicación web interactiva que actúa como un árbol de decisiones para ayudar a las personas a obtener recomendaciones personalizadas sobre cómo tratar sus síntomas de resfriado.
 
-First, run the development server:
+## ✨ Características
+
+- **🎯 Árbol de decisiones inteligente**: 8 pasos de preguntas sobre síntomas
+- **🎨 Animaciones suaves**: Transiciones fluidas con Framer Motion
+- **📊 Barra de progreso**: Seguimiento visual del avance
+- **🔄 Navegación flexible**: Botón para retroceder y reiniciar
+- **💊 Recomendaciones personalizadas**: Consejos específicos según síntomas
+- **📱 Diseño responsive**: Optimizado para móviles y escritorio
+- **⚡ Next.js 15**: Framework moderno con TypeScript
+
+## 🚀 Tecnologías
+
+- **Next.js 15**: Framework de React
+- **TypeScript**: Tipado estático
+- **Tailwind CSS**: Estilos utility-first
+- **Framer Motion**: Animaciones profesionales
+- **React 19**: Biblioteca de interfaz de usuario
+
+## 🛠️ Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/tuusuario/resfriado.git
+cd resfriado
+```
+
+2. Instala las dependencias:
+
+```bash
+npm install
+```
+
+3. Ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📋 Uso
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Inicia el cuestionario** respondiendo si tienes síntomas de resfriado
+2. **Navega por las preguntas** sobre fiebre, mucosidad, dolor de garganta, etc.
+3. **Retrocede si es necesario** usando el botón "Volver atrás"
+4. **Recibe recomendaciones personalizadas** al completar el flujo
+5. **Reinicia cuando quieras** para una nueva consulta
 
-## Learn More
+## 🎯 Flujo de Decisiones
 
-To learn more about Next.js, take a look at the following resources:
+El sistema evalúa:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Presencia de síntomas iniciales
+- Nivel y duración de la fiebre
+- Tipo de mucosidad nasal
+- Intensidad del dolor de garganta
+- Características de la tos
+- Nivel de fatiga y malestar general
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚠️ Disclaimer
 
-## Deploy on Vercel
+Esta aplicación es **solo informativa** y no sustituye el consejo médico profesional. Consulta con un médico si los síntomas persisten o empeoran.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Despliegue
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+La aplicación está optimizada para despliegue en Vercel:
+
+```bash
+npm run build
+```
+
+## 🤝 Contribución
+
+Las contribuciones son bienvenidas. Para cambios importantes, abre primero un issue para discutir lo que te gustaría cambiar.
+
+## 📄 Licencia
+
+[MIT](LICENSE)
+```
